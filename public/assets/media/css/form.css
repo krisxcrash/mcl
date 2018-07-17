@@ -1,0 +1,1153 @@
+
+
+
+@font-face {
+    font-family: Nobel-Book;
+    src: url(../fonts/Nobel-Book.woff)
+}
+
+@font-face {
+    font-family: Nobel-Bold;
+    src: url(../fonts/nobel-bold.woff)
+}
+
+body {
+    text-align: center;
+    margin-top: 45px
+}
+
+html {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: Fan-Heiti!important
+}
+
+h1.intro {
+    font: #000;
+    font-family: Poppins, sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 35% auto 0%;
+}
+
+label {
+    margin-top: 10px;
+    height: 14px;
+    margin-bottom: 14px;
+    text-transform: uppercase;
+    font-family: "Nobel-Book",Helvetica,Arial,sans-serif;
+}
+
+ul {
+    padding-left: 0
+}
+
+@media(max-width: 767px) {
+    body {
+        background-image:none;
+        background-color: #fff;
+        margin-top: 0!important
+    }
+
+    .buttons button#email_ver_but_edit {
+        width: 100%!important
+    }
+
+    .buttons button#email_ver_but_send {
+        width: 100%!important
+    }
+
+    .divider {
+        width: 80%!important
+    }
+
+    .divider h2 {
+        margin: 10px 0!important
+    }
+
+    .login-logo {
+        margin-top: -65px!important
+    }
+
+    .entry-item {
+        width: 80%!important
+    }
+
+    .entry .buttons button {
+        width: 80%!important
+    }
+
+    .options {
+        width: 80%!important;
+        margin: auto
+    }
+
+    .options div {
+        width: 100%!important
+    }
+
+    #api ul li {
+        width: 100%!important
+    }
+
+    #FacebookExchange {
+        width: 100%!important;
+        float: none!important
+    }
+
+    #GoogleExchange {
+        width: 100%!important;
+        float: none!important
+    }
+
+    .divider h2:after {
+        background: #eaeaea;
+        background: linear-gradient(right,rgba(234,234,234,1) 100%,rgba(234,234,234,1) 100%);
+        background: -moz-linear-gradient(right,rgba(234,234,234,1) 100%,rgba(234,234,234,1) 100%);
+        background: -ms-linear-gradient(right,rgba(234,234,234,1) 100%,rgba(234,234,234,1) 100%);
+        background: -o-linear-gradient(right,rgba(234,234,234,1) 100%,rgba(234,234,234,1) 100%);
+        background: -webkit-linear-gradient(right,rgba(234,234,234,1) 100%,rgba(234,234,234,1) 100%);
+        right: 0!important
+    }
+
+    .divider h2:before {
+        background: #eaeaea;
+        background: linear-gradient(right,rgba(234,234,234,1) 100%,rgba(234,234,234,1) 100%);
+        background: -moz-linear-gradient(right,rgba(234,234,234,1) 100%,rgba(234,234,234,1) 100%);
+        background: -ms-linear-gradient(right,rgba(234,234,234,1) 100%,rgba(234,234,234,1) 100%);
+        background: -o-linear-gradient(right,rgba(234,234,234,1) 100%,rgba(234,234,234,1) 100%);
+        background: -webkit-linear-gradient(right,rgba(234,234,234,1) 100%,rgba(234,234,234,1) 100%);
+        left: 0!important
+    }
+
+    .attrEntry {
+        width: 80%!important;
+        margin-left: 10%;
+        margin-right: 10%
+    }
+}
+
+@media(max-width: 767px) {
+    .buttons button#cancel {
+        width:100%!important;
+        margin-top: 10px!important
+    }
+}
+
+@media(max-width: 767px) {
+    .buttons button#continue {
+        width:80%!important;
+        margin-left: 10%!important
+    }
+}
+
+@media(max-width: 767px) {
+    .buttons button#verifyCode,.buttons button#verifyPhone {
+        height:50px
+    }
+}
+
+::-moz-placeholder {
+    color: transparent
+}
+
+::-moz-placeholder {
+    color: transparent
+}
+
+::-ms-input-placeholder {
+    color: transparent
+}
+
+::-webkit-input-placeholder {
+    color: transparent
+}
+
+#AdfsExchange {
+    background-color: #28b1e6;
+    background-image: url(../images/activedirectory.png);
+    background-repeat: no-repeat;
+    background-size: 50px;
+    margin: 10px 0;
+    padding-left: 55px
+}
+
+#AdfsExchange:hover {
+    background-color: #189dcf
+}
+
+#api {
+    position: relative;
+    display: block;
+    margin-bottom: 20px;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: Nobel-Bold
+}
+
+#api ul {
+    list-style-type: none
+}
+
+#api li {
+    padding-bottom: 10px
+}
+
+#api ul li:nth-child(4) {
+    width: 30%;
+    display: inline-block;
+    float: left
+}
+
+#api ul li:nth-child(5) {
+    width: 30%;
+    display: inline-block
+}
+
+#api ul li:nth-child(6) {
+    width: 30%;
+    display: inline-block;
+    float: right
+}
+
+#createAccount {
+    cursor: pointer;
+    padding-left: 2px;
+    transition: .5s all;
+    -moz-transition: .5s all;
+    -ms-transition: .5s all;
+    -o-transition: .5s all;
+    -webkit-transition: .5s all;
+    color: #000;
+    font: Nobel-Bold;
+    font-size: 12px;
+    text-decoration: underline
+}
+
+#createAccount:hover {
+    color: #000
+}
+
+#email_ver_input {
+    margin-bottom: 10px 0
+}
+
+#logo {
+    left: 762px;
+    top: 80px
+}
+
+#logo img {
+    height: auto;
+    width: auto;
+    max-width: 138px;
+    max-height: 71px
+}
+
+#logoTitle {
+    font-size: 50px;
+    color: #000
+}
+
+#FacebookExchange {
+    background-image: url(https://registration.driverslogin.com/static/branding/assets/facebook.png);
+    background-color: #3b5b9c;
+    background-size: 25px;
+    white-space: nowrap;
+    height: 50px;
+    width: 95%;
+    float: left;
+    background-position: left center;
+    background-position-x: 12px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #3b5b9c;
+    border-radius: 0;
+    text-transform: uppercase;
+    font-weight: 700
+}
+
+#FacebookExchange:hover {
+    background-color: #b0bdd7;
+    border-color: #b0bdd7
+}
+
+#forgotPassword {
+    visibility: hidden
+}
+
+#GoogleExchange {
+    background-image: url(https://registration.driverslogin.com/static/branding/assets/google.png);
+    background-color: #3cba54;
+    background-size: 50px;
+    white-space: nowrap;
+    height: 50px;
+    width: 95%;
+    float: right;
+    background-position: left center;
+    background-position-x: 0;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #3cba54;
+    border-radius: 0;
+    font-weight: 700;
+    text-transform: uppercase
+}
+
+#GoogleExchange:hover {
+    background-color: #246f32
+}
+
+#IdentifyServerExchange {
+    background-color: #28b1e6;
+    background-image: url(../images/wingtipcorp.png);
+    background-repeat: no-repeat;
+    background-size: 50px;
+    margin-top: 10px;
+    padding-left: 55px
+}
+
+#IdentifyServerExchange:hover {
+    background-color: #189dcf
+}
+
+#logonIdentifier,#password,#signInName {
+    background-color: #fff!important;
+    background-image: none!important;
+    border: 1px solid rgba(204,204,204,.5);
+    border-radius: 0!important;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075)!important;
+    color: #555;
+    display: block;
+    outline: 0!important;
+    font-size: 14px;
+    height: 50px;
+    line-height: 1.42857143;
+    margin: auto;
+    padding: 6px 12px;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s!important;
+    width: 100%!important;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s!important;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075)!important;
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s!important
+}
+
+#logonIdentifier:focus,#password:focus,#signInName:focus {
+    background-color: #fff!important;
+    border: 1px solid rgba(0,153,255,.5)!important;
+    border-radius: 0!important
+}
+
+#logo img {
+    float: left;
+    height: 50px;
+    width: 50px
+}
+
+#MicrosoftAccountExchange {
+    background-color: #28b1e6;
+    background-image: url(../images/microsoft.png);
+    background-repeat: no-repeat;
+    background-size: 50px;
+    padding-left: 55px
+}
+
+#MicrosoftAccountExchange:hover {
+    background-color: #189dcf
+}
+
+#next {
+    height: 50px;
+    text-transform: uppercase;
+    font-weight: 700
+}
+
+#SignUpWithLogonEmailExchange {
+    background-color: #ff5c62;
+    background-image: url(../images/wingtiptoys.png);
+    background-repeat: no-repeat;
+    background-size: 50px;
+    color: #fff;
+    margin-top: 10px;
+    padding-left: 55px
+}
+
+#SignUpWithLogonEmailExchange:hover {
+    background-image: url(../images/wingtiptoys.png)!important
+}
+
+.accountButton {
+    border: 1px solid #fff;
+    color: #fff;
+    margin-left: 0;
+    margin-right: 2px;
+    transition: background-color 1s ease 0s;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    text-align: center;
+    word-wrap: break-word;
+    height: 34px;
+    padding-left: 30px;
+    background-color: #505050
+}
+
+.accountButton,button {
+    -moz-user-select: none
+}
+
+.accountButton,a,button {
+    cursor: pointer
+}
+
+.accountButton,.accountButton:hover {
+    background-repeat: no-repeat
+}
+
+.accountButton:hover {
+    background-color: #b9b9b9;
+    border: 1px solid #fff;
+    -moz-box-shadow: 0 0 0;
+    -webkit-box-shadow: 0 0 0;
+    box-shadow: 0 0 0
+}
+
+#codeVerification input,.attrEntry input,.attrEntry select,.phoneEntry input,.phoneEntry select {
+    background-color: #fff!important;
+    background-image: none!important;
+    border: 1px solid #ccc!important;
+    border-radius: 0!important;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075)!important;
+    color: #000;
+    display: block;
+    font-size: 14px;
+    height: 50px;
+    line-height: 1.42857143;
+    outline: 0!important;
+    padding: 6px 12px;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s!important;
+    width: 100%!important;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s!important;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075)!important;
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s!important;
+    width: 100%;
+    box-sizing: border-box;
+    height: 50px;
+    display: block;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    padding-left: 8px;
+    padding-right: 8px
+}
+
+#codeVerification div.error.itemLevel.show[aria-hidden=false]+input:invalid,.attrEntry div.error.itemLevel.show[aria-hidden=false]+input:invalid,.phoneEntry div.error.itemLevel.show[aria-hidden=false]+input:invalid {
+    background-color: #fff!important;
+    border-color: #f50100!important;
+    outline: 0!important
+}
+
+#codeVerification.validate div.error.itemLevel.show[aria-hidden=false]+input,.attrEntry.validate div.error.itemLevel.show[aria-hidden=false]+input:invalid,.phoneEntry.validate div.error.itemLevel.show[aria-hidden=false]+input:invalid {
+    background-color: #fff!important;
+    border-color: #f50100!important;
+    outline: 0!important
+}
+
+.attrEntry #email_intro {
+    display: none!important
+}
+
+#codeVerification .error.itemLevel,#codeVerification .helpText,.attrEntry .error.itemLevel,.attrEntry .helpText,.phoneEntry .error.itemLevel,.phoneEntry .helpText {
+    display: none
+}
+
+#codeVerification .tiny,.attrEntry .tiny,.phoneEntry .tiny {
+    display: none
+}
+
+.buttons button {
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 400;
+    height: inherit;
+    line-height: 1.42857143;
+    margin: 0;
+    padding: 6px 12px;
+    text-align: center;
+    touch-action: manipulation;
+    user-select: none;
+    vertical-align: middle;
+    white-space: nowrap;
+    width: inherit;
+    -moz-user-select: none;
+    -ms-touch-action: manipulation;
+    -ms-user-select: none;
+    -webkit-user-select: none
+}
+
+.buttons button#continue {
+    margin-bottom: 20px;
+    margin-left: 12.5%;
+    font-size: 14px;
+    height: 50px;
+    width: 75%;
+    float: left;
+    text-transform: uppercase;
+    font-weight: 700;
+    background: #000;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #000;
+    border-radius: 0;
+    color: #fff
+}
+
+.buttons button:hover#continue {
+    background: #fff;
+    border-style: solid;
+    color: #000
+}
+
+.buttons button#cancel,.buttons button#email_ver_but_edit,.buttons button#email_ver_but_resend {
+    background-color: #fff;
+    border-style: solid;
+    border-radius: 0;
+    border-color: #000;
+    border-style: solid;
+    border-width: 1px;
+    color: #000;
+    height: 50px;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase
+}
+
+.buttons button#cancel {
+    width: 20%;
+    float: right;
+    padding: inherit!important
+}
+
+.buttons button:hover#cancel,.buttons button:hover#email_ver_but_edit,.buttons button:hover#email_ver_but_resend {
+    background-color: #000;
+    color: #fff;
+    border-color: #000
+}
+
+.buttons button#email_ver_but_edit {
+    width: 75%;
+    float: left;
+    margin-bottom: 10px
+}
+
+.buttons button#email_ver_but_send {
+    width: 75%;
+    float: left;
+    margin-bottom: 10px
+}
+
+.buttons button#email_ver_but_resend,.buttons button#email_ver_but_verify {
+    margin: 10px 0;
+    float: left
+}
+
+.buttons button#email_ver_but_verify {
+    width: 49%;
+    float: left
+}
+
+.buttons button#email_ver_but_resend {
+    width: 49%;
+    float: right
+}
+
+.buttons button#email_ver_but_send,.buttons button#email_ver_but_verify {
+    font-size: 12px;
+    height: 50px;
+    text-transform: uppercase;
+    font-weight: 700;
+    background: #000;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #000;
+    border-radius: 0;
+    color: #fff
+}
+
+.buttons button:hover#email_ver_but_send,.buttons button:hover#email_ver_but_verify {
+    background: #fff;
+    border-style: solid;
+    color: #000
+}
+
+.buttons button#verifyCode,.buttons button#verifyPhone {
+    background-color: #fff;
+    border-style: solid;
+    border-radius: 0;
+    border-color: #9a9a9a;
+    border-style: solid;
+    border-width: 1px;
+    color: #9a9a9a;
+    height: 50px;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase
+}
+
+.buttons button[disabled]#continue,.buttons button[disabled]:hover#continue {
+    height: 0;
+    padding: 0;
+    border: 0;
+    visibility: hidden
+}
+
+div.password-reset #cancel,div.password-reset #email_ver_but_edit {
+    height: 0;
+    padding: 0;
+    border: 0;
+    visibility: hidden
+}
+
+.createAccountHeader {
+    text-align: center;
+    margin-top: 30px
+}
+
+.create p {
+    visibility: hidden
+}
+
+.divider {
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    text-shadow: 0 1px 0 #fff
+}
+
+.divider h2 {
+    color: #000;
+    line-height: 20px;
+    text-align: center;
+    margin-bottom: 0!important;
+    margin-top: 35px!important
+}
+
+.divider h2:after,.divider h2:before {
+    content: "";
+    height: 1px;
+    position: absolute;
+    top: 10px;
+    width: 45%
+}
+
+.divider h2:after {
+    background: #eaeaea;
+    background: linear-gradient(right,rgba(234,234,234,1) 100%,rgba(234,234,234,1) 100%);
+    background: -moz-linear-gradient(right,rgba(234,234,234,1) 100%,rgba(234,234,234,1) 100%);
+    background: -ms-linear-gradient(right,rgba(234,234,234,1) 100%,rgba(234,234,234,1) 100%);
+    background: -o-linear-gradient(right,rgba(234,234,234,1) 100%,rgba(234,234,234,1) 100%);
+    background: -webkit-linear-gradient(right,rgba(234,234,234,1) 100%,rgba(234,234,234,1) 100%);
+    right: 0
+}
+
+.divider h2:before {
+    background: #eaeaea;
+    background: linear-gradient(right,rgba(234,234,234,1) 100%,rgba(234,234,234,1) 100%);
+    background: -moz-linear-gradient(right,rgba(234,234,234,1) 100%,rgba(234,234,234,1) 100%);
+    background: -ms-linear-gradient(right,rgba(234,234,234,1) 100%,rgba(234,234,234,1) 100%);
+    background: -o-linear-gradient(right,rgba(234,234,234,1) 100%,rgba(234,234,234,1) 100%);
+    background: -webkit-linear-gradient(right,rgba(234,234,234,1) 100%,rgba(234,234,234,1) 100%);
+    left: 0
+}
+
+.entry .buttons button {
+    background: #000;
+    border-style: solid;
+    border-radius: 0;
+    color: #fff;
+    width: 47.5%;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    font-size: 12px
+}
+
+.entry .buttons button:hover {
+    background: #fff;
+    border-color: #000;
+    color: #000
+}
+
+.entry-item {
+    text-align: left;
+    margin: auto
+}
+
+.error.itemLevel p {
+    color: #f50100
+}
+
+.error.itemLevel p:before {
+    content: "\e101";
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    margin-right: 3px;
+    position: relative;
+    top: 1px;
+    -webkit-font-smoothing: antialiased
+}
+
+.error.pageLevel {
+    color: #f50100
+}
+
+.highlightError {
+    border-color: #a94442!important;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075)!important;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075)!important
+}
+
+.h2,h2 {
+    font-size: 13px
+}
+
+.image-center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    vertical-align: middle
+}
+
+.intro h2 {
+    font-family: HelveticaNeue,'Helvetica Neue';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 0;
+    white-space: nowrap
+}
+
+.localAccount .divider {
+    display: none
+}
+
+.login-logo {
+    height: 34px;
+    width: 138px
+}
+
+.options div {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 7px;
+    width: 49%
+}
+
+.panel-body {
+    padding: 15px 30px!important
+}
+
+.panel-default {
+    border: 1px solid #ccc!important
+}
+
+.phonefactor_container,.self_asserted_container .unified_container {
+    padding-top: 80px
+}
+
+.phoneNumber .type {
+    display: inline-block;
+    font-weight: 700;
+    margin-bottom: 5px;
+    max-width: 100%
+}
+
+.phoneNumbers {
+    margin-top: 20px
+}
+
+.signUp .buttons.verify {
+    padding-left: 0!important;
+    padding-right: 0!important;
+    margin-top: 20px
+}
+
+.signUp .attrEntry {
+    text-align: left
+}
+
+.signUp {
+    margin-bottom: 45px
+}
+
+.subtitle {
+    font-family: HelveticaNeue,'Helvetica Neue';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px
+}
+
+#logonIdentifier,#password,.textInput {
+    width: 100%;
+    box-sizing: border-box;
+    height: 50px;
+    display: block;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    padding-left: 8px;
+    padding-right: 8px;
+    outline: 0!important
+}
+
+#logonIdentifier:focus,#password:focus,.textInput:focus {
+    width: 100%;
+    box-sizing: border-box;
+    height: 50px;
+    display: block;
+    margin-bottom: 10px;
+    padding-left: 8px;
+    padding-right: 8px;
+    color: #000;
+    background-color: #fff!important;
+    border: 1px solid #0089ef!important;
+    border-radius: 0!important
+}
+
+.verify {
+    margin-top: 5px;
+    padding-top: 0!important
+}
+
+.working {
+    bottom: 0;
+    display: none;
+    height: 2em;
+    left: 0;
+    margin: auto;
+    overflow: show;
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 2em;
+    z-index: 999
+}
+
+.working:before {
+    background-color: rgba(0,0,0,.3);
+    content: '';
+    display: block;
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%
+}
+
+.working:not(:required) {
+    background-color: transparent;
+    border: 0;
+    color: transparent;
+    font: 0/0 a;
+    text-shadow: none
+}
+
+.working:not(:required):after {
+    animation: spinner 1.5s infinite linear;
+    border-radius: .5em;
+    box-shadow: rgba(0,0,0,.75) 1.5em 0 0 0,rgba(0,0,0,.75) 1.1em 1.1em 0 0,rgba(0,0,0,.75) 0 1.5em 0 0,rgba(0,0,0,.75) -1.1em 1.1em 0 0,rgba(0,0,0,.75) -1.5em 0 0 0,rgba(0,0,0,.75) -1.1em -1.1em 0 0,rgba(0,0,0,.75) 0 -1.5em 0 0,rgba(0,0,0,.75) 1.1em -1.1em 0 0;
+    content: '';
+    display: block;
+    height: 1em;
+    font-size: 10px;
+    margin-top: -.5em;
+    width: 1em;
+    -moz-animation: spinner 1.5s infinite linear;
+    -ms-animation: spinner 1.5s infinite linear;
+    -o-animation: spinner 1.5s infinite linear;
+    -webkit-animation: spinner 1.5s infinite linear;
+    -webkit-box-shadow: rgba(0,0,0,.75) 1.5em 0 0 0,rgba(0,0,0,.75) 1.1em 1.1em 0 0,rgba(0,0,0,.75) 0 1.5em 0 0,rgba(0,0,0,.75) -1.1em 1.1em 0 0,rgba(0,0,0,.5) -1.5em 0 0 0,rgba(0,0,0,.5) -1.1em -1.1em 0 0,rgba(0,0,0,.75) 0 -1.5em 0 0,rgba(0,0,0,.75) 1.1em -1.1em 0 0
+}
+
+.verificationErrorText {
+    color: #c00
+}
+
+@keyframes spinner {
+    0% {
+        transform: rotate(0);
+        -moz-transform: rotate(0);
+        -ms-transform: rotate(0);
+        -o-transform: rotate(0);
+        -webkit-transform: rotate(0)
+    }
+
+    100% {
+        transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        -webkit-transform: rotate(360deg)
+    }
+}
+
+@-moz-keyframes spinner {
+    0% {
+        transform: rotate(0);
+        -moz-transform: rotate(0);
+        -ms-transform: rotate(0);
+        -o-transform: rotate(0);
+        -webkit-transform: rotate(0)
+    }
+
+    100% {
+        transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        -webkit-transform: rotate(360deg)
+    }
+}
+
+@-o-keyframes spinner {
+    0% {
+        transform: rotate(0);
+        -moz-transform: rotate(0);
+        -ms-transform: rotate(0);
+        -o-transform: rotate(0);
+        -webkit-transform: rotate(0)
+    }
+
+    100% {
+        transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        -webkit-transform: rotate(360deg)
+    }
+}
+
+@-webkit-keyframes spinner {
+    0% {
+        transform: rotate(0);
+        -moz-transform: rotate(0);
+        -ms-transform: rotate(0);
+        -o-transform: rotate(0);
+        -webkit-transform: rotate(0)
+    }
+
+    100% {
+        transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        -webkit-transform: rotate(360deg)
+    }
+}
+
+#signInSignUpForm {
+    background-color: #fff;
+}
+
+.lexus .buttons button {
+    background-color: #000;
+    border-radius: 0;
+    border: 1px solid #000;
+    color: #fff
+}
+
+.lexus .buttons button:hover {
+    background-color: #fff;
+    border-radius: 0;
+    color: #000
+}
+
+img.lexus-logo {
+    max-width: 177px;
+    float: left;
+    margin-top: .5%
+}
+
+.logo-center {
+    margin-top: 33px;
+    text-align: center
+}
+
+#lexus-password-reset {
+    background-color: #fff
+}
+
+.footerLink,.footerLink:focus,.footerLink:hover {
+    color: #fff;
+    text-decoration: underline;
+    font-size: 12px
+}
+
+.footerDisclaimer {
+    color: grey;
+    font-size: 12px;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.black-divider {
+    margin: 25px auto;
+    height: 1px;
+    border-bottom: 1px solid #000;
+    width: 3em
+}
+
+.header {
+    z-index: 1;
+    height: 50px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: 0 auto;
+    position: fixed;
+    background-color: #fff
+}
+
+.footer {
+    background: #000;
+    height: 200px;
+    font-family: Nobel-Book;
+    width: 100%
+}
+
+@media only screen and (min-width: 960px) {
+    #loginImageDiv {
+        height:400px;
+        background: #fff url(https://registration.driverslogin.com/static/branding/assets/lexus-login-header-960x400.jpg) no-repeat center
+    }
+
+    #resetImageDiv {
+        height: 400px;
+        background: #fff url(https://registration.driverslogin.com/static/branding/assets/lexus-password-header-960x400.jpg) no-repeat center
+    }
+
+    .header {
+        width: 960px
+    }
+}
+
+@media only screen and (min-width: 640px) and (max-width:959px) {
+    #loginImageDiv {
+        height:320px;
+        background: #fff url(https://registration.driverslogin.com/static/branding/assets/lexus-login-header-640x320.jpg) no-repeat center
+    }
+
+    #resetImageDiv {
+        height: 320px;
+        background: #fff url(https://registration.driverslogin.com/static/branding/assets/lexus-password-header-640x320.jpg) no-repeat center
+    }
+
+    .header {
+        width: 640px
+    }
+}
+
+@media only screen and (max-width: 639px) {
+    #loginImageDiv {
+        height:227px;
+        background: #fff url(https://registration.driverslogin.com/static/branding/assets/lexus-login-header-327x227.jpg) no-repeat center
+    }
+
+    #resetImageDiv {
+        height: 227px;
+        background: #fff url(https://registration.driverslogin.com/static/branding/assets/lexus-password-header-327x227.jpg) no-repeat center
+    }
+
+    .header {
+        width: 327px
+    }
+}
+
+.buttons button#email_ver_but_send {
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 15px
+}
+
+@media (max-width: 767px) {
+    .buttons button#email_ver_but_send {
+        width:100%!important;
+        margin-left: 0
+    }
+}
+
+div#attributeVerification {
+    text-align: left
+}
+
+html {
+    width: 100%;
+    height: 100%;
+    display: table
+}
+
+body {
+    width: 100%;
+    min-height: 100%
+}
+
+body,html {
+    margin: 0!important;
+    padding: 0!important
+}
+
+.flexBox {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh
+}
+
+.flexItem {
+    flex-grow: 1
+}
+
+.greyText {
+    font-family: Nobel-bold;
+    color: grey
+}
+
+.link {
+    font-family: Nobel-bold;
+    color: #000;
+    text-decoration: underline
+}
+
+.bold {
+    font-family: Nobel-bold
+}
+
+.footerDiv {
+    padding-top: 5%
+}
+
+.first {
+    order: 1
+}
+
+.second {
+    order: 2
+}
+
+.third {
+    order: 3
+}
+
+#cover {
+    display: none!important
+}

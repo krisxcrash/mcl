@@ -12,9 +12,6 @@ app.use(
   })
 );
 
-app.use("/", (req, res) => {
-  res.sendFile(path.join(__dirname, "./public/index.html"));
-});
+app.use("/", express.static(__dirname + "/public"));
 
-app.listen(PORT);
-console.log("server is running on" + PORT);
+app.listen(PORT, console.log("Server is running on PORT " + PORT));
