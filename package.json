@@ -1,0 +1,25 @@
+{
+  "name": "mcl-microsite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krisxcrash/mcl.git"
+  },
+  "author": "km",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/krisxcrash/mcl/issues"
+  },
+  "homepage": "https://github.com/krisxcrash/mcl#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "path": "^0.12.7"
+  }
+}
